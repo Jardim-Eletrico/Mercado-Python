@@ -14,6 +14,7 @@ if not os.path.exists(file_path):
         ]
         writer = csv.writer(file)
         writer.writerows(data)
+        
 
 # ========================================== Classe do Cliente
 
@@ -64,7 +65,7 @@ def add_Clientes(cliente: Cliente):
                 data.append(row)
                 all_IDs.append(int(row[0])) #Adicionar todos os IDs já usados
             
-            if row[4] == cliente.cpf: #Se algum ID ou CPF que já tá na lista do arquivo CSV forem iguais aos que foram passado pra adicionar um novo cliente
+            if row[4] == cliente.cpf: #Se algum CPF que já tá na lista do arquivo CSV for igual aos que foram passado pra adicionar um novo cliente
                 return {"Status": "Erro. CPF já cadastrado."}
             
     if not all_IDs:
