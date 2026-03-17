@@ -29,7 +29,7 @@ Selecione a função POST no postman, e escreva a seguinte identação:
     "sobrenome": "",
     "birth": "xxxx-xx-xx",
     "cpf": ""
-  }u
+  }
 ````
 
   Complete os espaços vazios com informações de sua preferência. Nota: Apesar de necessário, o campo do valor do ID inserido não será contado, pois este é configurado internamente de forma automática.
