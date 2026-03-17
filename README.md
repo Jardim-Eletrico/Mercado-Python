@@ -7,11 +7,35 @@ Atividade "PROJETO API FLASK SUPERMERCADO" do dia 10/3/2026
 - GET CLIENTES: http/127.0.0.1:8000/clientes
 - POST CLIENTE: http/127.0.0.1:8000/add_clientes
 - UPDATE CLIENTE: http/127.0.0.1:8000/update_clientes
-- DELETE CLIENTE: http/127.0.0.1:8000/delete_clientes/
+- DELETE CLIENTE: http/127.0.0.1:8000/delete_clientes/{id}
 
 
 ##PRODUTOS
 - GET PRODUTOS: http/127.0.0.1:8000/produtos
 - POST PRODUTO: http/127.0.0.1:8000/add_produto
 - UPDATE PRODUTOS: http/127.0.0.1:8000/update_produtos
-- DELETE PRODUTOS: http/127.0.0.1:8000/delete_produtos/{id} 
+- DELETE PRODUTOS: http/127.0.0.1:8000/delete_produtos/{id}
+
+
+#COMO USAR?
+## GET: 
+Apenas selecione a função GET no postman e dê SEND.
+## POST: 
+Selecione a função POST no postman, e escreva a seguinte identação:
+````JSON
+  {
+    "id": "0",
+    "nome": "",
+    "sobrenome": "",
+    "birth": "xxxx-xx-xx",
+    "cpf": ""
+  }u
+````
+
+  Complete os espaços vazios com informações de sua preferência. Nota: Apesar de necessário, o campo do valor do ID inserido não será contado, pois este é configurado internamente de forma automática.
+
+## UPDATE:
+Usando a mesma identação do método POST, insira o ID de um elemento existente e coloque as informações que você quer manter ou alterar.
+
+## DELETE:
+No POSTMAN coloque a URL do método delete e substitua {id} pelo ID de um elemento existente.
