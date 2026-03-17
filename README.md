@@ -33,7 +33,7 @@ Selecione a função POST no postman, e escreva a seguinte identação:
     "id": "0",
     "nome": "{Nome}",
     "sobrenome": "{Sobrenome}",
-    "birth": "xxxx-xx-xx",
+    "birth": "{xxxx-xx-xx}",
     "cpf": "{CPF}"
   }
 
