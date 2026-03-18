@@ -20,7 +20,7 @@ Atividade "PROJETO API FLASK SUPERMERCADO" do dia 10/3/2026
 - GET VENDAS: http/127.0.0.1:8000/vendas
 - POST VENDAS: http/127.0.0.1:8000/add_vendas
 - UPDATE VENDAS: http/127.0.0.1:8000/update_vendas
-- DELETE VENDAS: http://127.0.0.1:8000/delete_vendas/{id}
+- DELETE VENDAS: http/127.0.0.1:8000/delete_vendas/{id}
 
 # COMO USAR?
 ## GET: 
